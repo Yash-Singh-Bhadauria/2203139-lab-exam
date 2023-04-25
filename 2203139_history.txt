@@ -1,0 +1,8 @@
+wc -l ca_500.csv
+wc -l us_500.csv
+head -n 1 ca_500.csv
+head -n 1 us_500.csv
+cat ca_500.csv | grep -w 'Montreal'
+cat head -n 1 ca_500.csv>ca_city_Montreal.csv
+cat ca_500.csv | grep -w 'Montreal'>>ca_city_Montreal.csv
+
